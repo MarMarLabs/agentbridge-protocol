@@ -5,7 +5,7 @@ Get from a fresh clone to a working AgentBridge in five minutes.
 ## 1. Clone and install
 
 ```bash
-git clone https://github.com/marmar9615-cloud/agentbridge-protocol.git
+git clone https://github.com/MarMarLabs/agentbridge-protocol.git
 cd agentbridge-protocol
 npm install
 ```

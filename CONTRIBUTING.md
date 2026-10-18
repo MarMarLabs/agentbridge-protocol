@@ -20,7 +20,7 @@ between agents and apps, not the demo Next.js plumbing.
 ## Development workflow
 
 ```bash
-git clone https://github.com/marmar9615-cloud/agentbridge-protocol.git
+git clone https://github.com/MarMarLabs/agentbridge-protocol.git
 cd agentbridge-protocol
 npm install
 npm test                  # all suites

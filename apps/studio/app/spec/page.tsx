@@ -42,7 +42,7 @@ export default function SpecPage() {
       <p className="muted">
         Source: <code>spec/agentbridge-manifest.v0.1.md</code> ·{" "}
         <a
-          href="https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/spec/agentbridge-manifest.v0.1.md"
+          href="https://github.com/MarMarLabs/agentbridge-protocol/blob/main/spec/agentbridge-manifest.v0.1.md"
           target="_blank"
           rel="noreferrer"
         >

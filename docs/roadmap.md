@@ -77,7 +77,7 @@ the v1.0 release — it's the foundation.
 ### v0.5.0 — Signed manifests (in design)
 
 Design-first PR underway. Tracking issue
-[#31](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/31)
+[#31](https://github.com/MarMarLabs/agentbridge-protocol/issues/31)
 / [docs/issues/v0.5.0-signed-manifests.md](issues/v0.5.0-signed-manifests.md).
 Design doc: [designs/signed-manifests.md](designs/signed-manifests.md).
 ADR: [adr/0002-signed-manifests.md](adr/0002-signed-manifests.md).

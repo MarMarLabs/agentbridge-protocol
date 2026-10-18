@@ -1,6 +1,6 @@
 # @marmarlabs/agentbridge-cli
 
-Command-line interface for [AgentBridge](https://github.com/marmar9615-cloud/agentbridge-protocol).
+Command-line interface for [AgentBridge](https://github.com/MarMarLabs/agentbridge-protocol).
 Scan, validate, scaffold, and generate manifests from your terminal.
 
 ## Install
@@ -84,7 +84,7 @@ agentbridge verify ./manifest.json --keys ./keys.json --json
 Failure outcomes carry a stable `reason` from the core verifier
 (`signature-invalid`, `expired`, `unknown-kid`, `revoked-kid`,
 `issuer-mismatch`, …). See
-[`packages/core/README.md`](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/packages/core/README.md)
+[`packages/core/README.md`](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/packages/core/README.md)
 for the full enum.
 
 ### `agentbridge keys generate` (local dev only)
@@ -141,9 +141,9 @@ codex mcp add agentbridge -- npx -y @marmarlabs/agentbridge-mcp-server
 ```
 
 Full Codex walkthrough:
-[docs/codex-setup.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/codex-setup.md).
+[docs/codex-setup.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/codex-setup.md).
 For everything else (Claude Desktop, Cursor, custom):
-[docs/mcp-client-setup.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/mcp-client-setup.md).
+[docs/mcp-client-setup.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/mcp-client-setup.md).
 
 ### `agentbridge version`
 

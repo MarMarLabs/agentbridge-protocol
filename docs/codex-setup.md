@@ -94,7 +94,7 @@ Cursor, or any other MCP-compatible client at the same time — see
 Clone the repo, install dependencies, and start the demo:
 
 ```bash
-git clone https://github.com/marmar9615-cloud/agentbridge-protocol.git
+git clone https://github.com/MarMarLabs/agentbridge-protocol.git
 cd agentbridge-protocol
 npm install
 npm run dev

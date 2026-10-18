@@ -1,6 +1,6 @@
 # @marmarlabs/agentbridge-mcp-server
 
-MCP server that exposes [AgentBridge](https://github.com/marmar9615-cloud/agentbridge-protocol)
+MCP server that exposes [AgentBridge](https://github.com/MarMarLabs/agentbridge-protocol)
 actions to MCP clients (OpenAI Codex, Claude Desktop, Cursor, custom)
 with confirmation gates, origin pinning, and audit logging. Default
 **stdio** transport for local desktop clients; opt-in **Streamable
@@ -40,7 +40,7 @@ enabled = true
 ```
 
 Full Codex walkthrough:
-[docs/codex-setup.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/codex-setup.md).
+[docs/codex-setup.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/codex-setup.md).
 
 ### Claude Desktop
 
@@ -73,7 +73,7 @@ npx -y @marmarlabs/agentbridge-mcp-server
 ```
 
 See
-[docs/mcp-client-setup.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/mcp-client-setup.md)
+[docs/mcp-client-setup.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/mcp-client-setup.md)
 for everything else.
 
 ### HTTP transport (experimental, opt-in)
@@ -95,10 +95,10 @@ Clients send `Authorization: Bearer <token>`. Tokens in URL
 query strings are rejected with `400`. Default bind is loopback;
 non-loopback bind requires both auth and an Origin allowlist or
 the server fails closed at startup. Full env-var table:
-[docs/security-configuration.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/security-configuration.md).
+[docs/security-configuration.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/security-configuration.md).
 
 > The HTTP transport is **experimental** in v0.4.0. See
-> [docs/production-readiness.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/production-readiness.md)
+> [docs/production-readiness.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/production-readiness.md)
 > for what AgentBridge is and isn't safe for today.
 
 ## Tools exposed
@@ -127,7 +127,7 @@ the server fails closed at startup. Full env-var table:
 - **Configurable bounds** — `AGENTBRIDGE_ACTION_TIMEOUT_MS`,
   `AGENTBRIDGE_MAX_RESPONSE_BYTES`, `AGENTBRIDGE_CONFIRMATION_TTL_SECONDS`
   are clamped to safe ranges. See
-  [docs/security-configuration.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/security-configuration.md).
+  [docs/security-configuration.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/security-configuration.md).
 - **Idempotency** — pass `idempotencyKey` to safely retry a `call_action`
   request; the same key+input replays the prior result.
 - **Audit redaction** — `authorization`, `cookie`, `password`, `token`,
@@ -151,20 +151,20 @@ origin allowlist, loopback-by-default bind, and HTTP smoke wired
 into the local pre-publish flow. Stdio remains the default; HTTP
 is opt-in via `AGENTBRIDGE_TRANSPORT=http`. **Not yet v1.0** —
 see the
-[v1-readiness checklist](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/v1-readiness.md)
+[v1-readiness checklist](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/v1-readiness.md)
 for what we still owe before declaring production-ready.
 
 AgentBridge is suitable for local development, manifest authoring,
 scanner workflows, OpenAPI import, and MCP experiments. With the
 v0.3.0+ controlled-staging configuration (see
-[production-readiness.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/production-readiness.md))
+[production-readiness.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/production-readiness.md))
 it is also suitable for internal staging deployments behind an
 explicit origin allowlist. It is not yet production security
 infrastructure.
 
 HTTP transport, signed manifests, OAuth scope enforcement, and
 distributed audit storage are on the
-[roadmap](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/roadmap.md).
+[roadmap](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/roadmap.md).
 
 ## License
 

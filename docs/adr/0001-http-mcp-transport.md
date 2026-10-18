@@ -3,7 +3,7 @@
 - **Status.** Proposed (v0.4.0 design phase).
 - **Date.** 2026-04-28.
 - **Deciders.** AgentBridge maintainers; tracked in
-  [issue #22](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/22)
+  [issue #22](https://github.com/MarMarLabs/agentbridge-protocol/issues/22)
   and [`docs/issues/v0.4.0-http-transport-auth.md`](../issues/v0.4.0-http-transport-auth.md).
 - **Companion design doc.** [`docs/designs/http-mcp-transport-auth.md`](../designs/http-mcp-transport-auth.md).
 
@@ -174,7 +174,7 @@ transport is "just an internal detail."
 
 ## Links
 
-- Tracking issue: [#22](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/22)
+- Tracking issue: [#22](https://github.com/MarMarLabs/agentbridge-protocol/issues/22)
   / [`docs/issues/v0.4.0-http-transport-auth.md`](../issues/v0.4.0-http-transport-auth.md).
 - Design doc: [`docs/designs/http-mcp-transport-auth.md`](../designs/http-mcp-transport-auth.md).
 - Roadmap: [`docs/roadmap.md`](../roadmap.md) (v0.4.0 line).
