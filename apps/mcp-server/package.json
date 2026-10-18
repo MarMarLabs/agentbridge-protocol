@@ -5,10 +5,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marmar9615-cloud/agentbridge-protocol.git",
+    "url": "https://github.com/MarMarLabs/agentbridge-protocol.git",
     "directory": "apps/mcp-server"
   },
-  "homepage": "https://github.com/marmar9615-cloud/agentbridge-protocol",
+  "homepage": "https://github.com/MarMarLabs/agentbridge-protocol",
   "keywords": ["agentbridge", "mcp", "ai-agents", "model-context-protocol", "stdio", "http"],
   "type": "module",
   "main": "./dist/index.js",

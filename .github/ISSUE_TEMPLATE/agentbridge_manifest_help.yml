@@ -9,8 +9,8 @@ body:
         AgentBridge manifest and something isn't clicking. For obvious
         bugs, use the bug-report template instead.
 
-        Read [the manifest spec](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/spec/agentbridge-manifest.v0.1.md)
-        and [the OpenAPI import guide](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/openapi-import.md)
+        Read [the manifest spec](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/spec/agentbridge-manifest.v0.1.md)
+        and [the OpenAPI import guide](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/openapi-import.md)
         first.
   - type: input
     id: manifest-url
