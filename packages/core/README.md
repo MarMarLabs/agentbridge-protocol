@@ -1,6 +1,6 @@
 # @marmarlabs/agentbridge-core
 
-Core types, schemas, validation, and audit utilities for [AgentBridge](https://github.com/marmar9615-cloud/agentbridge-protocol)
+Core types, schemas, validation, and audit utilities for [AgentBridge](https://github.com/MarMarLabs/agentbridge-protocol)
 — an AI-native action layer for web apps.
 
 This package is the contract: every other AgentBridge package depends on
@@ -50,7 +50,7 @@ npm install @marmarlabs/agentbridge-core
     `expired`, `canonicalization-failed`, `signature-invalid`,
     `key-type-mismatch`). Pure, no network, no SDK dependency.
     Ed25519 + ES256. Reference test vectors live at
-    [`spec/signing/test-vectors.json`](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/spec/signing/test-vectors.json)
+    [`spec/signing/test-vectors.json`](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/spec/signing/test-vectors.json)
     so non-JS implementers can check their canonicalizer + verifier
     against fixed bytes.
   - **Runtime enforcement is not in this package yet.**
@@ -89,7 +89,7 @@ production security infrastructure.
 
 The manifest schema is stable for the v0.x line; field additions are
 non-breaking, field removals or shape changes will bump to v1.0. See
-the [project roadmap](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/roadmap.md)
+the [project roadmap](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/roadmap.md)
 for what's planned beyond v0.2.x.
 
 ## License

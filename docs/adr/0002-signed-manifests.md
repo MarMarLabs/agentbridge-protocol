@@ -3,7 +3,7 @@
 - **Status.** Proposed (v0.5.0 design phase).
 - **Date.** 2026-04-28.
 - **Deciders.** AgentBridge maintainers; tracked in
-  [issue #31](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/31)
+  [issue #31](https://github.com/MarMarLabs/agentbridge-protocol/issues/31)
   and
   [`docs/issues/v0.5.0-signed-manifests.md`](../issues/v0.5.0-signed-manifests.md).
 - **Companion design doc.**
@@ -206,7 +206,7 @@ whole manifest.
 ## Links
 
 - Tracking issue:
-  [#31](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/31)
+  [#31](https://github.com/MarMarLabs/agentbridge-protocol/issues/31)
   /
   [`docs/issues/v0.5.0-signed-manifests.md`](../issues/v0.5.0-signed-manifests.md).
 - Design doc:

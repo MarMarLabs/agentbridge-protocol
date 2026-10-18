@@ -1,6 +1,6 @@
 # @marmarlabs/agentbridge-openapi
 
-Convert OpenAPI 3.x documents into [AgentBridge](https://github.com/marmar9615-cloud/agentbridge-protocol)
+Convert OpenAPI 3.x documents into [AgentBridge](https://github.com/MarMarLabs/agentbridge-protocol)
 manifests. The converter is intentionally conservative: it emits a
 draft manifest that you should review before publishing.
 

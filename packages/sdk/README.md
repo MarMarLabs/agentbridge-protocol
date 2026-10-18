@@ -1,6 +1,6 @@
 # @marmarlabs/agentbridge-sdk
 
-SDK for declaring [AgentBridge](https://github.com/marmar9615-cloud/agentbridge-protocol)
+SDK for declaring [AgentBridge](https://github.com/MarMarLabs/agentbridge-protocol)
 actions and emitting AgentBridge manifests in any JavaScript/TypeScript
 app.
 
@@ -71,7 +71,7 @@ export const manifest = createAgentBridgeManifest({
 });
 ```
 
-See [`examples/nextjs-basic`](https://github.com/marmar9615-cloud/agentbridge-protocol/tree/main/examples/nextjs-basic)
+See [`examples/nextjs-basic`](https://github.com/MarMarLabs/agentbridge-protocol/tree/main/examples/nextjs-basic)
 for a complete Next.js integration walkthrough.
 
 ## Signing manifests (v0.5.0)
@@ -151,14 +151,14 @@ The v0.x SDK public surface is intentionally small:
 - `z`
 
 The contract tests in
-[`packages/sdk/src/tests/public-api-contract.test.ts`](https://github.com/marmar9615-cloud/agentbridge-protocol/tree/main/packages/sdk/src/tests/public-api-contract.test.ts)
+[`packages/sdk/src/tests/public-api-contract.test.ts`](https://github.com/MarMarLabs/agentbridge-protocol/tree/main/packages/sdk/src/tests/public-api-contract.test.ts)
 pin the runtime behavior adopters rely on: action metadata preservation,
 Zod-to-JSON-Schema manifest output, manifest validation through
 `@marmarlabs/agentbridge-core`, handler input validation, structured
 JSON success/error responses, and the `z` re-export.
 
 For a small module-style example, see
-[`examples/sdk-basic`](https://github.com/marmar9615-cloud/agentbridge-protocol/tree/main/examples/sdk-basic).
+[`examples/sdk-basic`](https://github.com/MarMarLabs/agentbridge-protocol/tree/main/examples/sdk-basic).
 
 ## Status
 

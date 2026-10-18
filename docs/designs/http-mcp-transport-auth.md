@@ -6,7 +6,7 @@
 >
 > **Tracking issue.** [`docs/issues/v0.4.0-http-transport-auth.md`](../issues/v0.4.0-http-transport-auth.md)
 > (mirrors GitHub issue
-> [#22](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/22)).
+> [#22](https://github.com/MarMarLabs/agentbridge-protocol/issues/22)).
 >
 > **ADR.** [`docs/adr/0001-http-mcp-transport.md`](../adr/0001-http-mcp-transport.md).
 
@@ -509,7 +509,7 @@ to the implementation PRs that will follow this design.
 Releases land in this order:
 
 1. **v0.4.0 design PR.** ✅ landed (PR
-   [#23](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/23)).
+   [#23](https://github.com/MarMarLabs/agentbridge-protocol/pull/23)).
    Docs only. No runtime change.
 2. **v0.4.0 implementation PR 1 — transport abstraction.** ✅
    landed. Extracted `createMcpServer()` factory in

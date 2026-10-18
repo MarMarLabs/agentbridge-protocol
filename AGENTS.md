@@ -28,19 +28,19 @@ The repo ships:
 - **v0.5.0 is in design** — Signed manifests. Design doc:
   [docs/designs/signed-manifests.md](docs/designs/signed-manifests.md);
   ADR: [docs/adr/0002-signed-manifests.md](docs/adr/0002-signed-manifests.md);
-  tracking issue: [#31](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/31)
+  tracking issue: [#31](https://github.com/MarMarLabs/agentbridge-protocol/issues/31)
   /
   [docs/issues/v0.5.0-signed-manifests.md](docs/issues/v0.5.0-signed-manifests.md).
   No runtime change yet; implementation lands in subsequent PRs.
 - v0.4.0 predecessor PRs:
-  [#23](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/23) (HTTP transport design),
-  [#24](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/24) (transport abstraction),
-  [#25](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/25) (adopter docs/examples),
-  [#26](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/26) (OpenAPI regression fixtures),
-  [#27](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/27) (HTTP transport + bearer auth),
-  [#29](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/29) (release prep),
-  [#30](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/30) (post-release notes),
-  [#28](https://github.com/marmar9615-cloud/agentbridge-protocol/pull/28) (SDK public API contract coverage).
+  [#23](https://github.com/MarMarLabs/agentbridge-protocol/pull/23) (HTTP transport design),
+  [#24](https://github.com/MarMarLabs/agentbridge-protocol/pull/24) (transport abstraction),
+  [#25](https://github.com/MarMarLabs/agentbridge-protocol/pull/25) (adopter docs/examples),
+  [#26](https://github.com/MarMarLabs/agentbridge-protocol/pull/26) (OpenAPI regression fixtures),
+  [#27](https://github.com/MarMarLabs/agentbridge-protocol/pull/27) (HTTP transport + bearer auth),
+  [#29](https://github.com/MarMarLabs/agentbridge-protocol/pull/29) (release prep),
+  [#30](https://github.com/MarMarLabs/agentbridge-protocol/pull/30) (post-release notes),
+  [#28](https://github.com/MarMarLabs/agentbridge-protocol/pull/28) (SDK public API contract coverage).
 - Stdio remains the default and only-when-unset transport. HTTP is
   **opt-in** via `AGENTBRIDGE_TRANSPORT=http`. Design in
   [docs/designs/http-mcp-transport-auth.md](docs/designs/http-mcp-transport-auth.md);

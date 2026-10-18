@@ -4,7 +4,7 @@ Score how agent-ready a URL is. Returns a 0–100 readiness score,
 structured `checks[]`, and grouped recommendations.
 
 Used by the [AgentBridge CLI](https://www.npmjs.com/package/@marmarlabs/agentbridge-cli),
-[AgentBridge Studio](https://github.com/marmar9615-cloud/agentbridge-protocol/tree/main/apps/studio),
+[AgentBridge Studio](https://github.com/MarMarLabs/agentbridge-protocol/tree/main/apps/studio),
 and the [MCP server](https://www.npmjs.com/package/@marmarlabs/agentbridge-mcp-server).
 
 ## Install
@@ -76,7 +76,7 @@ const invalid = result.checks.find((c) => c.id === "manifest.signature.invalid")
 `scoreManifest(manifest, options?)` accepts the same `signature` block.
 
 For a copy-pasteable reporting walkthrough, see
-[`examples/scanner-signature-reporting`](https://github.com/marmar9615-cloud/agentbridge-protocol/tree/main/examples/scanner-signature-reporting).
+[`examples/scanner-signature-reporting`](https://github.com/MarMarLabs/agentbridge-protocol/tree/main/examples/scanner-signature-reporting).
 It demonstrates unsigned default output, `requireSignature`, verified
 signatures, tampering, and expiry using the public key set from the
 signed-manifest example.
@@ -85,7 +85,7 @@ signed-manifest example.
 
 Stable identifiers — once shipped, renaming any of them is a major
 bump per
-[`docs/v1-readiness.md` §13](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/v1-readiness.md#13-compatibility-guarantees).
+[`docs/v1-readiness.md` §13](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/v1-readiness.md#13-compatibility-guarantees).
 All sit under category `safety`.
 
 | Check | Severity (default) | Severity (`requireSignature`) | Deduction | When |
@@ -129,7 +129,7 @@ All sit under category `safety`.
 ## Scanner regression fixtures
 
 The repo includes scanner fixtures in
-[`examples/scanner-regression`](https://github.com/marmar9615-cloud/agentbridge-protocol/tree/main/examples/scanner-regression)
+[`examples/scanner-regression`](https://github.com/MarMarLabs/agentbridge-protocol/tree/main/examples/scanner-regression)
 that pin public scanner behavior:
 
 - `manifest.good.json` demonstrates a high-readiness manifest with
@@ -167,7 +167,7 @@ AgentBridge is suitable for local development, manifest authoring,
 scanner workflows, OpenAPI import, and MCP experiments. It is not yet
 production security infrastructure.
 
-The structured [`checks[]`](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/CHANGELOG.md)
+The structured [`checks[]`](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/CHANGELOG.md)
 shape is stable for the v0.x line. Check coverage will grow over time
 and severity deductions may be retuned.
 

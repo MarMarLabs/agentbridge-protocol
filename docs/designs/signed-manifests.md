@@ -7,7 +7,7 @@
 > **Tracking issue.**
 > [`docs/issues/v0.5.0-signed-manifests.md`](../issues/v0.5.0-signed-manifests.md)
 > (mirrors GitHub issue
-> [#31](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/31)).
+> [#31](https://github.com/MarMarLabs/agentbridge-protocol/issues/31)).
 >
 > **ADR.**
 > [`docs/adr/0002-signed-manifests.md`](../adr/0002-signed-manifests.md).

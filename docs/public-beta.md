@@ -80,6 +80,6 @@ These are enforced by the bundled MCP server today, with tests:
 ## How to report problems
 
 - Public bugs / feature requests:
-  https://github.com/marmar9615-cloud/agentbridge-protocol/issues
+  https://github.com/MarMarLabs/agentbridge-protocol/issues
 - Security issues: see [SECURITY.md](../SECURITY.md). Do NOT open a
   public issue.

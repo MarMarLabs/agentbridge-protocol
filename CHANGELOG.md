@@ -6,6 +6,10 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed
+
+- Standardize MarMarLabs branding and repository links after the GitHub username change.
+
 ### Added
 
 - SDK public API contract tests and a lightweight `examples/sdk-basic/`
