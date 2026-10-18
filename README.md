@@ -6,7 +6,7 @@
 
 *Web apps publish a manifest of structured, permissioned actions. AI agents discover, validate, and call those actions through MCP — instead of clicking around UIs that were designed for humans.*
 
-[![CI](https://github.com/marmar9615-cloud/agentbridge-protocol/actions/workflows/ci.yml/badge.svg)](https://github.com/marmar9615-cloud/agentbridge-protocol/actions/workflows/ci.yml)
+[![CI](https://github.com/MarMarLabs/agentbridge-protocol/actions/workflows/ci.yml/badge.svg)](https://github.com/MarMarLabs/agentbridge-protocol/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -41,7 +41,7 @@ enforce on top. See
 and
 [docs/adr/0002-signed-manifests.md](docs/adr/0002-signed-manifests.md)
 for the design and decision record. Tracking issue:
-[#31](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/31).
+[#31](https://github.com/MarMarLabs/agentbridge-protocol/issues/31).
 
 The v0.4.0 line shipped:
 - An **opt-in Streamable HTTP MCP transport** with static
@@ -282,7 +282,7 @@ The Studio dashboard enforces the same gate visually — the operator must type 
 ## Quick start
 
 ```bash
-git clone https://github.com/marmar9615-cloud/agentbridge-protocol.git
+git clone https://github.com/MarMarLabs/agentbridge-protocol.git
 cd agentbridge-protocol
 
 npm install      # pulls Next.js, MCP SDK, Zod, etc.
@@ -917,7 +917,7 @@ CI runs `npm install`, typecheck, all tests, and Next.js builds on Node 20.x and
 
 Near-term, in rough priority order:
 
-- **Signed manifests (v0.5.0, in design).** A published manifest carries an inline publisher signature (Ed25519 by default, RFC 8785 canonicalization) an agent can verify offline against the publisher's key set at `/.well-known/agentbridge-keys.json`. Optional in v0.5.0; mandatory at v1.0 after a documented migration. Design: [docs/designs/signed-manifests.md](docs/designs/signed-manifests.md). ADR: [docs/adr/0002-signed-manifests.md](docs/adr/0002-signed-manifests.md). Tracking: [#31](https://github.com/marmar9615-cloud/agentbridge-protocol/issues/31).
+- **Signed manifests (v0.5.0, in design).** A published manifest carries an inline publisher signature (Ed25519 by default, RFC 8785 canonicalization) an agent can verify offline against the publisher's key set at `/.well-known/agentbridge-keys.json`. Optional in v0.5.0; mandatory at v1.0 after a documented migration. Design: [docs/designs/signed-manifests.md](docs/designs/signed-manifests.md). ADR: [docs/adr/0002-signed-manifests.md](docs/adr/0002-signed-manifests.md). Tracking: [#31](https://github.com/MarMarLabs/agentbridge-protocol/issues/31).
 - **Standardized risk taxonomy.** Move from `low | medium | high` to a richer model: `read`, `write-self`, `write-others`, `financial`, `irreversible`. Lets agents reason about action consequences more precisely.
 - **Policy primitives.** First-class support for cost caps, rate limits, business-hours gating, and N-of-M approver workflows declared *in the manifest*.
 - **HTTP MCP transport.** Stdio works for desktop clients; hosted/centralized agents need an authenticated HTTP transport. **Implemented as opt-in in v0.4.0** behind `AGENTBRIDGE_TRANSPORT=http` with bearer-token auth, exact-origin allowlist, and loopback-by-default bind. Design: [docs/designs/http-mcp-transport-auth.md](docs/designs/http-mcp-transport-auth.md). Recipe: [examples/http-client-config](examples/http-client-config).
@@ -951,6 +951,6 @@ Apache License 2.0 — see [LICENSE](LICENSE).
 
 Built as an MVP exploration of the **agent-native interface layer** for the web.
 
-If this resonates, [open an issue](https://github.com/marmar9615-cloud/agentbridge-protocol/issues) and let's talk.
+If this resonates, [open an issue](https://github.com/MarMarLabs/agentbridge-protocol/issues) and let's talk.
 
 </div>

@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for the suggestion. The most valuable proposals describe a
         real problem first, then sketch the proposed solution. Refer to
-        the [roadmap](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/docs/roadmap.md)
+        the [roadmap](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/docs/roadmap.md)
         before opening — your idea may already be planned.
   - type: textarea
     id: problem

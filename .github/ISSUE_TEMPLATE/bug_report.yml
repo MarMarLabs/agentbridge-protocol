@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a bug.
-        Security issues should be sent privately — see [SECURITY.md](https://github.com/marmar9615-cloud/agentbridge-protocol/blob/main/SECURITY.md).
+        Security issues should be sent privately — see [SECURITY.md](https://github.com/MarMarLabs/agentbridge-protocol/blob/main/SECURITY.md).
   - type: input
     id: agentbridge-version
     attributes:
